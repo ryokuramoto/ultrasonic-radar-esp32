@@ -1,4 +1,4 @@
-# Ultrasonic Rader with ESP32
+# Ultrasonic Radar with ESP32
 
 This project is an Ultrasonic Radar system using an ESP32 microcontroller, a servo motor, an ultrasonic sensor, and a buzzer. The system measures the distance to an object using the ultrasonic sensor, moves the servo motor, and activates a buzzer if the object is within a certain distance.
 
@@ -12,15 +12,15 @@ This project is an Ultrasonic Radar system using an ESP32 microcontroller, a ser
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/ryokuramoto/UltrasonicRader-ESP32.git
-    cd UltrasonicRader-ESP32
+    git clone https://github.com/ryokuramoto/UltrasonicRadar-ESP32.git
+    cd UltrasonicRadar-ESP32
     ```
 
 2. **Install the required libraries:**
     - Ensure you have the ESP32Servo library installed. You can install it via the Arduino Library Manager.
 
 3. **Upload the code:**
-    - Open `UltrasonicRader-ESP32.ino` in the Arduino IDE.
+    - Open `UltrasonicRadar-ESP32.ino` in the Arduino IDE.
     - Select the correct board and port for your ESP32.
     - Upload the code to your ESP32.
 
